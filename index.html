@@ -5,86 +5,113 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://fonts.google.com/specimen/Poppins">
     <title>Frontend Mentor | Huddle landing page with alternating feature blocks</title>
 </head>
 <body>
     <header>
-        <div>
+        <div class="logo-div">
             <img src="/images/logo.svg" alt="huddle logo">
+            <button class="try-it">Try it Free</button>
         </div>
-        <div>
-            <button>Try it Free</button>
-        </div>
-        <div>
-            <h1> Build The Community Your Fans Will Love</h1>
-             <p> Huddle re-imagines the way we build communities. You have a voice, but so does your audience. 
-                Create connections with your users as you engage in genuine discussion. 
-            </p>
-            <button>
-                Get Started For Free
-            </button> 
-            <img src="/images/illustration-mockups.svg" alt="mock up">   
+        <div class="build-div">
+            <div class="fans-div">
+                <h1> Build The Community Your Fans Will Love</h1>
+                <p> Huddle re-imagines the way we build communities. You have a voice, but so does your audience. 
+                    Create connections with your users as you engage in genuine discussion. 
+                </p>
+                <button class="started">
+                   Get Started For Free
+                </button> 
+            </div>
+            <img class="mockup" src="/images/illustration-mockups.svg" alt="mock up">   
     
         </div>
-    </header>
-    <div>
-        <h1>Grow Together</h1>
-        <p>
-            Generate meaningful discussions with your audience and build a strong, loyal community. 
-            Think of the insightful conversations you miss out on with a feedback form.
-        </p>
-        <img src="/images/illustration-grow-together.svg" alt="grow together">
-    </div>
-    <div>
-        <h1>Flowing Conversations</h1>
-        <p>You wouldn't paginate a conversation in real life, so why do it online? Our threads 
-            have just-in-time loading for a more natural flow.
-        </p>
-        <img src="/images/illustration-flowing-conversation.svg" alt="flowing convo">
-    </div>
-    <div>
-        <h1>Your Users</h1>
-        <p>
-            It takes no time at all to integrate Huddle with your app's authentication solution. 
-            This means, once signed in to your app, your users can start chatting immediately.
-        </p>
+    </header> <br>
+    <div class="grow-div">
+       <div>
+            <h1>Grow Together</h1>
+            <p>
+                Generate meaningful discussions with your audience and <br> build a strong, loyal community. 
+                Think of the insightful <br> conversations you miss out on with a feedback form.
+            </p>
+       </div>
+       <img class="grow-img" src="/images/illustration-grow-together.svg" alt="grow together">
+    </div> <br>
+    <div class="flow-div">
+        <img class="flow-img" src="/images/illustration-flowing-conversation.svg" alt="flowing convo">
+        <div class="flow-text">
+            <h1>Flowing Conversations</h1>
+            <p>You wouldn't paginate a conversation in real life, so why do <br> it online? Our threads 
+              have just-in-time loading for a more <br> natural flow.
+            </p>
+        </div>
+    </div> <br>
+    <div class="user-div">
+        <div class="user-text">
+            <h1>Your Users</h1>
+            <p>
+            It takes no time at all to integrate Huddle with your app's <br> authentication solution. 
+            This means, once signed in to <br> your app, your users can start chatting immediately.
+            </p>
+        </div>
         <img src="/images/illustration-your-users.svg" alt="your users">
     </div>
-    <div>
+    <div class="ready-div">
         <h1>
-            Ready To Build Your Community?
+           Ready To Build Your Community?
         </h1>
-        <button>
-             Get Started For Free
+        <button class="started">
+            Get Started For Free
         </button>
+    
     </div>
     <footer>
-        <img src="/images/logo.svg" alt="logo">
-        <div>
-          <i class="icon-location.svg"></i>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur <br> adipiscing elit, sed do eiusmod tempor <br>
-            incididunt ut labore et dolore magna aliqua
-          </p>
-       </div>
-       <div>
-          <i class="icon-phone.svg"></i>
-          <p>  
-              +1-543-123-4567
-          </p>
-       </div>
-       <div>
-           <i class="icon-email.svg"></i>
-           <p>
-             example@huddle.com
-           </p>
-       </div>
-       <div>
-           <a>About Us</a> <br>
-           <a>What We Do</a> <br>
-           <a>FAQ</a>
-       </div>
+        <div class="f-container">
+           <div class="address-div">
+               <img class="footer-logo" src="/images/logo.svg" alt="logo">
+                <div>
+                    <i class="fa fa-map-marker" aria-hidden="true"></i>
+                    <p>
+                    Lorem ipsum dolor sit amet, consectetur <br> adipiscing elit, sed do eiusmod tempor <br>
+                    incididunt ut labore et dolore magna aliqua
+                    </p>    
+               </div>
+               <div>
+                    <i class="fa fa-phone" aria-hidden="true"></i>
+                    <p>  
+                        +1-543-123-4567
+                    </p>
+                </div>
+                <div>
+                    <i class="fa fa-envelope" aria-hidden="true"></i>
+                    <p>
+                        example@huddle.com
+                    </p>
+                </div>
+           </div>
+           <div class="about-div">
+                <a>About Us</a> <br>
+                <a>What We Do</a> <br>
+                <a>FAQ</a>
+           </div>
+           <div class="career-div">
+                <a>Career</a> <br>
+                <a>Blog</a> <br>
+                <a>Contact Us</a> <br>
+           </div>
+           <div class="social-div">
+                <i class="fa fa-facebook-official" aria-hidden="true"></i>
+                <i class="fa fa-twitter-square" aria-hidden="true"></i>
+                <i class="fa fa-instagram" aria-hidden="true"></i>
+           </div>
+           <div class="copyright">
+               &copy; Copyright 2018 Huddle. All rights reserved.
+           </div>
 
+        </div>
     </footer>
     
 </body>
